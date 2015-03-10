@@ -57,14 +57,6 @@ private:
     TreapNode *root;
 
     /**
-     * Finds a node by its key
-     *
-     * @param key: key to search for
-     * @return pointer to the node if found, or 0
-     */
-    TreapNode * & find(int const& key) const;
-
-    /**
      * Removes the node from the tree with the provided @key
      *
      * @param key: key to be removed
