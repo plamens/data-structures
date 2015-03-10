@@ -7,7 +7,7 @@ class Treap {
 
 public:
 	Treap();
-	~Treap();
+    ~Treap();
 
 	/**
 	 * Inserts a node in the treap with the provided @key
